@@ -43,13 +43,16 @@
             this.lblStudentGrade = new System.Windows.Forms.Label();
             this.txtStudentName = new System.Windows.Forms.TextBox();
             this.txtStudentNumber = new System.Windows.Forms.TextBox();
-            this.txtGroup = new System.Windows.Forms.TextBox();
             this.txtEnglish = new System.Windows.Forms.TextBox();
             this.txtMaths = new System.Windows.Forms.TextBox();
             this.txtScience = new System.Windows.Forms.TextBox();
             this.txtStudentDetails = new System.Windows.Forms.TextBox();
             this.txtAverageMark = new System.Windows.Forms.TextBox();
             this.txtStudentGrade = new System.Windows.Forms.TextBox();
+            this.btnCalculate = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.cbxGroup = new System.Windows.Forms.ComboBox();
             this.gbxResults.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -180,22 +183,15 @@
             // 
             this.txtStudentName.Location = new System.Drawing.Point(166, 80);
             this.txtStudentName.Name = "txtStudentName";
-            this.txtStudentName.Size = new System.Drawing.Size(100, 20);
+            this.txtStudentName.Size = new System.Drawing.Size(162, 20);
             this.txtStudentName.TabIndex = 10;
             // 
             // txtStudentNumber
             // 
             this.txtStudentNumber.Location = new System.Drawing.Point(166, 104);
             this.txtStudentNumber.Name = "txtStudentNumber";
-            this.txtStudentNumber.Size = new System.Drawing.Size(100, 20);
+            this.txtStudentNumber.Size = new System.Drawing.Size(121, 20);
             this.txtStudentNumber.TabIndex = 11;
-            // 
-            // txtGroup
-            // 
-            this.txtGroup.Location = new System.Drawing.Point(166, 129);
-            this.txtGroup.Name = "txtGroup";
-            this.txtGroup.Size = new System.Drawing.Size(100, 20);
-            this.txtGroup.TabIndex = 12;
             // 
             // txtEnglish
             // 
@@ -239,15 +235,53 @@
             this.txtStudentGrade.Size = new System.Drawing.Size(272, 20);
             this.txtStudentGrade.TabIndex = 5;
             // 
+            // btnCalculate
+            // 
+            this.btnCalculate.Location = new System.Drawing.Point(476, 309);
+            this.btnCalculate.Name = "btnCalculate";
+            this.btnCalculate.Size = new System.Drawing.Size(75, 23);
+            this.btnCalculate.TabIndex = 16;
+            this.btnCalculate.Text = "Calculate";
+            this.btnCalculate.UseVisualStyleBackColor = true;
+            // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(476, 345);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(75, 23);
+            this.btnClear.TabIndex = 17;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = true;
+            // 
+            // btnExit
+            // 
+            this.btnExit.Location = new System.Drawing.Point(476, 378);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(75, 23);
+            this.btnExit.TabIndex = 18;
+            this.btnExit.Text = "Exit";
+            this.btnExit.UseVisualStyleBackColor = true;
+            // 
+            // cbxGroup
+            // 
+            this.cbxGroup.FormattingEnabled = true;
+            this.cbxGroup.Location = new System.Drawing.Point(166, 131);
+            this.cbxGroup.Name = "cbxGroup";
+            this.cbxGroup.Size = new System.Drawing.Size(121, 21);
+            this.cbxGroup.TabIndex = 19;
+            // 
             // frmStudentGrades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(563, 437);
+            this.Controls.Add(this.cbxGroup);
+            this.Controls.Add(this.btnExit);
+            this.Controls.Add(this.btnClear);
+            this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.txtScience);
             this.Controls.Add(this.txtMaths);
             this.Controls.Add(this.txtEnglish);
-            this.Controls.Add(this.txtGroup);
             this.Controls.Add(this.txtStudentNumber);
             this.Controls.Add(this.txtStudentName);
             this.Controls.Add(this.gbxResults);
@@ -289,10 +323,13 @@
         private System.Windows.Forms.TextBox txtStudentDetails;
         private System.Windows.Forms.TextBox txtStudentName;
         private System.Windows.Forms.TextBox txtStudentNumber;
-        private System.Windows.Forms.TextBox txtGroup;
         private System.Windows.Forms.TextBox txtEnglish;
         private System.Windows.Forms.TextBox txtMaths;
         private System.Windows.Forms.TextBox txtScience;
+        private System.Windows.Forms.Button btnCalculate;
+        private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.ComboBox cbxGroup;
     }
 }
 
