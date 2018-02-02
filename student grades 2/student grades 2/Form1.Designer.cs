@@ -41,6 +41,15 @@
             this.lblStudentDetails = new System.Windows.Forms.Label();
             this.lblAverageMark = new System.Windows.Forms.Label();
             this.lblStudentGrade = new System.Windows.Forms.Label();
+            this.txtStudentName = new System.Windows.Forms.TextBox();
+            this.txtStudentNumber = new System.Windows.Forms.TextBox();
+            this.txtGroup = new System.Windows.Forms.TextBox();
+            this.txtEnglish = new System.Windows.Forms.TextBox();
+            this.txtMaths = new System.Windows.Forms.TextBox();
+            this.txtScience = new System.Windows.Forms.TextBox();
+            this.txtStudentDetails = new System.Windows.Forms.TextBox();
+            this.txtAverageMark = new System.Windows.Forms.TextBox();
+            this.txtStudentGrade = new System.Windows.Forms.TextBox();
             this.gbxResults.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -127,6 +136,9 @@
             // 
             // gbxResults
             // 
+            this.gbxResults.Controls.Add(this.txtStudentGrade);
+            this.gbxResults.Controls.Add(this.txtAverageMark);
+            this.gbxResults.Controls.Add(this.txtStudentDetails);
             this.gbxResults.Controls.Add(this.lblStudentGrade);
             this.gbxResults.Controls.Add(this.lblAverageMark);
             this.gbxResults.Controls.Add(this.lblStudentDetails);
@@ -164,11 +176,80 @@
             this.lblStudentGrade.TabIndex = 2;
             this.lblStudentGrade.Text = "Student Grade";
             // 
+            // txtStudentName
+            // 
+            this.txtStudentName.Location = new System.Drawing.Point(166, 80);
+            this.txtStudentName.Name = "txtStudentName";
+            this.txtStudentName.Size = new System.Drawing.Size(100, 20);
+            this.txtStudentName.TabIndex = 10;
+            // 
+            // txtStudentNumber
+            // 
+            this.txtStudentNumber.Location = new System.Drawing.Point(166, 104);
+            this.txtStudentNumber.Name = "txtStudentNumber";
+            this.txtStudentNumber.Size = new System.Drawing.Size(100, 20);
+            this.txtStudentNumber.TabIndex = 11;
+            // 
+            // txtGroup
+            // 
+            this.txtGroup.Location = new System.Drawing.Point(166, 129);
+            this.txtGroup.Name = "txtGroup";
+            this.txtGroup.Size = new System.Drawing.Size(100, 20);
+            this.txtGroup.TabIndex = 12;
+            // 
+            // txtEnglish
+            // 
+            this.txtEnglish.Location = new System.Drawing.Point(166, 178);
+            this.txtEnglish.Name = "txtEnglish";
+            this.txtEnglish.Size = new System.Drawing.Size(100, 20);
+            this.txtEnglish.TabIndex = 13;
+            // 
+            // txtMaths
+            // 
+            this.txtMaths.Location = new System.Drawing.Point(166, 203);
+            this.txtMaths.Name = "txtMaths";
+            this.txtMaths.Size = new System.Drawing.Size(100, 20);
+            this.txtMaths.TabIndex = 14;
+            // 
+            // txtScience
+            // 
+            this.txtScience.Location = new System.Drawing.Point(166, 226);
+            this.txtScience.Name = "txtScience";
+            this.txtScience.Size = new System.Drawing.Size(100, 20);
+            this.txtScience.TabIndex = 15;
+            // 
+            // txtStudentDetails
+            // 
+            this.txtStudentDetails.Location = new System.Drawing.Point(138, 43);
+            this.txtStudentDetails.Name = "txtStudentDetails";
+            this.txtStudentDetails.Size = new System.Drawing.Size(272, 20);
+            this.txtStudentDetails.TabIndex = 3;
+            // 
+            // txtAverageMark
+            // 
+            this.txtAverageMark.Location = new System.Drawing.Point(138, 79);
+            this.txtAverageMark.Name = "txtAverageMark";
+            this.txtAverageMark.Size = new System.Drawing.Size(100, 20);
+            this.txtAverageMark.TabIndex = 4;
+            // 
+            // txtStudentGrade
+            // 
+            this.txtStudentGrade.Location = new System.Drawing.Point(138, 112);
+            this.txtStudentGrade.Name = "txtStudentGrade";
+            this.txtStudentGrade.Size = new System.Drawing.Size(272, 20);
+            this.txtStudentGrade.TabIndex = 5;
+            // 
             // frmStudentGrades
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(563, 437);
+            this.Controls.Add(this.txtScience);
+            this.Controls.Add(this.txtMaths);
+            this.Controls.Add(this.txtEnglish);
+            this.Controls.Add(this.txtGroup);
+            this.Controls.Add(this.txtStudentNumber);
+            this.Controls.Add(this.txtStudentName);
             this.Controls.Add(this.gbxResults);
             this.Controls.Add(this.lblScience);
             this.Controls.Add(this.lblMaths);
@@ -203,6 +284,15 @@
         private System.Windows.Forms.Label lblStudentGrade;
         private System.Windows.Forms.Label lblAverageMark;
         private System.Windows.Forms.Label lblStudentDetails;
+        private System.Windows.Forms.TextBox txtStudentGrade;
+        private System.Windows.Forms.TextBox txtAverageMark;
+        private System.Windows.Forms.TextBox txtStudentDetails;
+        private System.Windows.Forms.TextBox txtStudentName;
+        private System.Windows.Forms.TextBox txtStudentNumber;
+        private System.Windows.Forms.TextBox txtGroup;
+        private System.Windows.Forms.TextBox txtEnglish;
+        private System.Windows.Forms.TextBox txtMaths;
+        private System.Windows.Forms.TextBox txtScience;
     }
 }
 
