@@ -59,9 +59,10 @@
             // lblStudentGrades
             // 
             this.lblStudentGrades.AutoSize = true;
-            this.lblStudentGrades.Location = new System.Drawing.Point(217, 26);
+            this.lblStudentGrades.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudentGrades.Location = new System.Drawing.Point(214, 9);
             this.lblStudentGrades.Name = "lblStudentGrades";
-            this.lblStudentGrades.Size = new System.Drawing.Size(81, 13);
+            this.lblStudentGrades.Size = new System.Drawing.Size(140, 24);
             this.lblStudentGrades.TabIndex = 0;
             this.lblStudentGrades.Text = "Student Grades";
             // 
@@ -77,27 +78,30 @@
             // lblStudentName
             // 
             this.lblStudentName.AutoSize = true;
+            this.lblStudentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudentName.Location = new System.Drawing.Point(48, 80);
             this.lblStudentName.Name = "lblStudentName";
-            this.lblStudentName.Size = new System.Drawing.Size(75, 13);
+            this.lblStudentName.Size = new System.Drawing.Size(93, 16);
             this.lblStudentName.TabIndex = 2;
             this.lblStudentName.Text = "Student Name";
             // 
             // lblStudentNumber
             // 
             this.lblStudentNumber.AutoSize = true;
+            this.lblStudentNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudentNumber.Location = new System.Drawing.Point(48, 104);
             this.lblStudentNumber.Name = "lblStudentNumber";
-            this.lblStudentNumber.Size = new System.Drawing.Size(84, 13);
+            this.lblStudentNumber.Size = new System.Drawing.Size(104, 16);
             this.lblStudentNumber.TabIndex = 3;
             this.lblStudentNumber.Text = "Student Number";
             // 
             // lblGroup
             // 
             this.lblGroup.AutoSize = true;
+            this.lblGroup.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGroup.Location = new System.Drawing.Point(48, 129);
             this.lblGroup.Name = "lblGroup";
-            this.lblGroup.Size = new System.Drawing.Size(36, 13);
+            this.lblGroup.Size = new System.Drawing.Size(45, 16);
             this.lblGroup.TabIndex = 4;
             this.lblGroup.Text = "Group";
             // 
@@ -113,27 +117,30 @@
             // lblEnglish
             // 
             this.lblEnglish.AutoSize = true;
+            this.lblEnglish.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEnglish.Location = new System.Drawing.Point(48, 178);
             this.lblEnglish.Name = "lblEnglish";
-            this.lblEnglish.Size = new System.Drawing.Size(41, 13);
+            this.lblEnglish.Size = new System.Drawing.Size(52, 16);
             this.lblEnglish.TabIndex = 6;
             this.lblEnglish.Text = "English";
             // 
             // lblMaths
             // 
             this.lblMaths.AutoSize = true;
+            this.lblMaths.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMaths.Location = new System.Drawing.Point(48, 203);
             this.lblMaths.Name = "lblMaths";
-            this.lblMaths.Size = new System.Drawing.Size(36, 13);
+            this.lblMaths.Size = new System.Drawing.Size(44, 16);
             this.lblMaths.TabIndex = 7;
             this.lblMaths.Text = "Maths";
             // 
             // lblScience
             // 
             this.lblScience.AutoSize = true;
+            this.lblScience.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScience.Location = new System.Drawing.Point(48, 226);
             this.lblScience.Name = "lblScience";
-            this.lblScience.Size = new System.Drawing.Size(46, 13);
+            this.lblScience.Size = new System.Drawing.Size(57, 16);
             this.lblScience.TabIndex = 8;
             this.lblScience.Text = "Science";
             // 
@@ -155,27 +162,30 @@
             // lblStudentDetails
             // 
             this.lblStudentDetails.AutoSize = true;
+            this.lblStudentDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudentDetails.Location = new System.Drawing.Point(20, 43);
             this.lblStudentDetails.Name = "lblStudentDetails";
-            this.lblStudentDetails.Size = new System.Drawing.Size(79, 13);
+            this.lblStudentDetails.Size = new System.Drawing.Size(98, 16);
             this.lblStudentDetails.TabIndex = 0;
             this.lblStudentDetails.Text = "Student Details";
             // 
             // lblAverageMark
             // 
             this.lblAverageMark.AutoSize = true;
+            this.lblAverageMark.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAverageMark.Location = new System.Drawing.Point(20, 79);
             this.lblAverageMark.Name = "lblAverageMark";
-            this.lblAverageMark.Size = new System.Drawing.Size(74, 13);
+            this.lblAverageMark.Size = new System.Drawing.Size(93, 16);
             this.lblAverageMark.TabIndex = 1;
             this.lblAverageMark.Text = "Average Mark";
             // 
             // lblStudentGrade
             // 
             this.lblStudentGrade.AutoSize = true;
+            this.lblStudentGrade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStudentGrade.Location = new System.Drawing.Point(23, 112);
             this.lblStudentGrade.Name = "lblStudentGrade";
-            this.lblStudentGrade.Size = new System.Drawing.Size(76, 13);
+            this.lblStudentGrade.Size = new System.Drawing.Size(94, 16);
             this.lblStudentGrade.TabIndex = 2;
             this.lblStudentGrade.Text = "Student Grade";
             // 
@@ -261,6 +271,7 @@
             this.btnExit.TabIndex = 18;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // cbxGroup
             // 
