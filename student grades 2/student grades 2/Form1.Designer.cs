@@ -38,17 +38,17 @@
             this.lblMaths = new System.Windows.Forms.Label();
             this.lblScience = new System.Windows.Forms.Label();
             this.gbxResults = new System.Windows.Forms.GroupBox();
-            this.lblStudentDetails = new System.Windows.Forms.Label();
-            this.lblAverageMark = new System.Windows.Forms.Label();
+            this.txtStudentGrade = new System.Windows.Forms.TextBox();
+            this.txtAverageMark = new System.Windows.Forms.TextBox();
+            this.txtStudentDetails = new System.Windows.Forms.TextBox();
             this.lblStudentGrade = new System.Windows.Forms.Label();
+            this.lblAverageMark = new System.Windows.Forms.Label();
+            this.lblStudentDetails = new System.Windows.Forms.Label();
             this.txtStudentName = new System.Windows.Forms.TextBox();
             this.txtStudentNumber = new System.Windows.Forms.TextBox();
             this.txtEnglish = new System.Windows.Forms.TextBox();
             this.txtMaths = new System.Windows.Forms.TextBox();
             this.txtScience = new System.Windows.Forms.TextBox();
-            this.txtStudentDetails = new System.Windows.Forms.TextBox();
-            this.txtAverageMark = new System.Windows.Forms.TextBox();
-            this.txtStudentGrade = new System.Windows.Forms.TextBox();
             this.btnCalculate = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
@@ -159,15 +159,36 @@
             this.gbxResults.TabStop = false;
             this.gbxResults.Text = "Results";
             // 
-            // lblStudentDetails
+            // txtStudentGrade
             // 
-            this.lblStudentDetails.AutoSize = true;
-            this.lblStudentDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStudentDetails.Location = new System.Drawing.Point(20, 43);
-            this.lblStudentDetails.Name = "lblStudentDetails";
-            this.lblStudentDetails.Size = new System.Drawing.Size(98, 16);
-            this.lblStudentDetails.TabIndex = 0;
-            this.lblStudentDetails.Text = "Student Details";
+            this.txtStudentGrade.Location = new System.Drawing.Point(138, 112);
+            this.txtStudentGrade.Name = "txtStudentGrade";
+            this.txtStudentGrade.Size = new System.Drawing.Size(272, 20);
+            this.txtStudentGrade.TabIndex = 5;
+            // 
+            // txtAverageMark
+            // 
+            this.txtAverageMark.Location = new System.Drawing.Point(138, 79);
+            this.txtAverageMark.Name = "txtAverageMark";
+            this.txtAverageMark.Size = new System.Drawing.Size(100, 20);
+            this.txtAverageMark.TabIndex = 4;
+            // 
+            // txtStudentDetails
+            // 
+            this.txtStudentDetails.Location = new System.Drawing.Point(138, 43);
+            this.txtStudentDetails.Name = "txtStudentDetails";
+            this.txtStudentDetails.Size = new System.Drawing.Size(272, 20);
+            this.txtStudentDetails.TabIndex = 3;
+            // 
+            // lblStudentGrade
+            // 
+            this.lblStudentGrade.AutoSize = true;
+            this.lblStudentGrade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudentGrade.Location = new System.Drawing.Point(23, 112);
+            this.lblStudentGrade.Name = "lblStudentGrade";
+            this.lblStudentGrade.Size = new System.Drawing.Size(94, 16);
+            this.lblStudentGrade.TabIndex = 2;
+            this.lblStudentGrade.Text = "Student Grade";
             // 
             // lblAverageMark
             // 
@@ -179,15 +200,15 @@
             this.lblAverageMark.TabIndex = 1;
             this.lblAverageMark.Text = "Average Mark";
             // 
-            // lblStudentGrade
+            // lblStudentDetails
             // 
-            this.lblStudentGrade.AutoSize = true;
-            this.lblStudentGrade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStudentGrade.Location = new System.Drawing.Point(23, 112);
-            this.lblStudentGrade.Name = "lblStudentGrade";
-            this.lblStudentGrade.Size = new System.Drawing.Size(94, 16);
-            this.lblStudentGrade.TabIndex = 2;
-            this.lblStudentGrade.Text = "Student Grade";
+            this.lblStudentDetails.AutoSize = true;
+            this.lblStudentDetails.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStudentDetails.Location = new System.Drawing.Point(20, 43);
+            this.lblStudentDetails.Name = "lblStudentDetails";
+            this.lblStudentDetails.Size = new System.Drawing.Size(98, 16);
+            this.lblStudentDetails.TabIndex = 0;
+            this.lblStudentDetails.Text = "Student Details";
             // 
             // txtStudentName
             // 
@@ -224,27 +245,6 @@
             this.txtScience.Size = new System.Drawing.Size(100, 20);
             this.txtScience.TabIndex = 15;
             // 
-            // txtStudentDetails
-            // 
-            this.txtStudentDetails.Location = new System.Drawing.Point(138, 43);
-            this.txtStudentDetails.Name = "txtStudentDetails";
-            this.txtStudentDetails.Size = new System.Drawing.Size(272, 20);
-            this.txtStudentDetails.TabIndex = 3;
-            // 
-            // txtAverageMark
-            // 
-            this.txtAverageMark.Location = new System.Drawing.Point(138, 79);
-            this.txtAverageMark.Name = "txtAverageMark";
-            this.txtAverageMark.Size = new System.Drawing.Size(100, 20);
-            this.txtAverageMark.TabIndex = 4;
-            // 
-            // txtStudentGrade
-            // 
-            this.txtStudentGrade.Location = new System.Drawing.Point(138, 112);
-            this.txtStudentGrade.Name = "txtStudentGrade";
-            this.txtStudentGrade.Size = new System.Drawing.Size(272, 20);
-            this.txtStudentGrade.TabIndex = 5;
-            // 
             // btnCalculate
             // 
             this.btnCalculate.Location = new System.Drawing.Point(476, 309);
@@ -253,6 +253,7 @@
             this.btnCalculate.TabIndex = 16;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
             // btnClear
             // 
@@ -262,6 +263,7 @@
             this.btnClear.TabIndex = 17;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnExit
             // 
